@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="censusanalyser.CensusAnalyserTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-08-15T14:43:56" hostname="deepsingh" time="0.346">
+<testsuite name="censusanalyser.CensusAnalyserTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-08-15T15:46:37" hostname="deepsingh" time="0.43">
   <properties/>
-  <testcase name="givenCSVFileCorrectButDelimiterIncorrectReturnsException" classname="censusanalyser.CensusAnalyserTest" time="0.013"/>
+  <testcase name="givenCSVFileCorrectButDelimiterIncorrectReturnsException" classname="censusanalyser.CensusAnalyserTest" time="0.051"/>
   <testcase name="givenCensusCSVFileCorrectButTypeIncorrectReturnsException" classname="censusanalyser.CensusAnalyserTest" time="0.0"/>
-  <testcase name="givenStatesCensusCSVFileReturnsCorrectRecords" classname="censusanalyser.CensusAnalyserTest" time="0.324"/>
-  <testcase name="givenCSVFileCorrectButCsvHeaderIncorrectReturnsException" classname="censusanalyser.CensusAnalyserTest" time="0.002"/>
+  <testcase name="givenStatesCensusCSVFileReturnsCorrectRecords" classname="censusanalyser.CensusAnalyserTest" time="0.375"/>
+  <testcase name="givenCSVFileCorrectButCsvHeaderIncorrectReturnsException" classname="censusanalyser.CensusAnalyserTest" time="0.001"/>
   <testcase name="givenCensusCSVFileIfIncorrectThenReturnsException" classname="censusanalyser.CensusAnalyserTest" time="0.001"/>
   <system-out><![CDATA[CSV File:29
 ]]></system-out>
