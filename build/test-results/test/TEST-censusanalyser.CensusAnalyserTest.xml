@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="censusanalyser.CensusAnalyserTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-08-15T15:46:37" hostname="deepsingh" time="0.43">
+<testsuite name="censusanalyser.CensusAnalyserTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-08-17T12:44:46" hostname="deepsingh" time="0.203">
   <properties/>
-  <testcase name="givenCSVFileCorrectButDelimiterIncorrectReturnsException" classname="censusanalyser.CensusAnalyserTest" time="0.051"/>
+  <testcase name="givenCSVFileCorrectButDelimiterIncorrectReturnsException" classname="censusanalyser.CensusAnalyserTest" time="0.015"/>
   <testcase name="givenCensusCSVFileCorrectButTypeIncorrectReturnsException" classname="censusanalyser.CensusAnalyserTest" time="0.0"/>
-  <testcase name="givenStatesCensusCSVFileReturnsCorrectRecords" classname="censusanalyser.CensusAnalyserTest" time="0.375"/>
-  <testcase name="givenCSVFileCorrectButCsvHeaderIncorrectReturnsException" classname="censusanalyser.CensusAnalyserTest" time="0.001"/>
-  <testcase name="givenCensusCSVFileIfIncorrectThenReturnsException" classname="censusanalyser.CensusAnalyserTest" time="0.001"/>
-  <system-out><![CDATA[CSV File:29
-]]></system-out>
+  <testcase name="givenStateCodeCSVFilCrtButDelimitersIncorrectReturnsException" classname="censusanalyser.CensusAnalyserTest" time="0.001"/>
+  <testcase name="givenIndiaStateCodeCSVFileReturnsCorrectRecords" classname="censusanalyser.CensusAnalyserTest" time="0.181"/>
+  <testcase name="givenStateCodeCSVFileCorrectButHeadersIncorrectReturnsException" classname="censusanalyser.CensusAnalyserTest" time="0.001"/>
+  <testcase name="givenIndianStateCodeCSVFileIfIncorrectThenReturnsException" classname="censusanalyser.CensusAnalyserTest" time="0.001"/>
+  <testcase name="givenCSVFileCorrectButCsvHeaderIncorrectReturnsException" classname="censusanalyser.CensusAnalyserTest" time="0.0"/>
+  <testcase name="givenCensusCSVFileIfIncorrectThenReturnsException" classname="censusanalyser.CensusAnalyserTest" time="0.0"/>
+  <testcase name="givenStateCodeCSVFileCorrectButTypeIncorrectReturnsException" classname="censusanalyser.CensusAnalyserTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
